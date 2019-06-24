@@ -1,0 +1,251 @@
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+	letter-spacing: 0.02em;
+	line-height: 22px;
+}
+
+div, p, input, button, form, a {
+	box-sizing: border-box;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, form, input, textarea {
+	margin: 0;
+	padding: 0;
+}
+
+a, button {
+	text-decoration: none;
+}
+
+input {
+	display: block;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+}
+
+#header {
+	background: #22a2ec;
+	color: #fff;
+	padding: 30px 45px;
+}
+
+.logo {
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	margin-right: 10%;
+}
+
+.main-menu {
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-item {
+	float: left;
+	margin: 0px 27px 0px 0px;
+	display: block;
+	
+}
+
+.menu-item a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1.5px solid #FFF;
+}
+
+.phone {
+	font-weight: bold;
+	font-size: 18px;
+	float: right;
+}
+
+#first {
+	padding: 50px 45px 28px 45px;
+	color: #272c2f;
+	
+}
+
+.main-title {
+	font-size: 28px;
+	margin-bottom: 34px;
+}
+
+.card-wrapper {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.test-card {
+	width: 358px;
+}
+
+.test-card1 {
+	border: 1px solid #d6d6d6;
+	padding: 31px 27px;
+}
+
+.test-card2 {
+	border: 5px solid #d6d6d6;
+	padding: 31px 27px;
+}
+
+.test-card3 {
+	border-radius: 5px;
+	box-shadow: 0 0 20px 5px #d4d4d4;
+	padding: 31px 27px;
+}
+
+.test-card-title {
+	font-size: 18px;
+	margin-bottom: 21px;
+}
+
+.test-card-link {
+	color: #22a2ec;
+	font-size: 13px;
+	border-bottom: 1.5px solid #22a2ec;
+	font-weight: bold;
+}
+
+#description {
+	padding: 50px 45px 28px 45px;
+	color: #272c2f;	
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.description-wrapper {
+	display: flex;
+	width: 100%;
+    justify-content: space-between;
+}
+
+.description-title {
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 32px;
+}
+
+.action-form {
+	width: 28%;
+	margin-left: 1px;
+	
+}
+
+.action-form input {
+	margin-bottom: 13px;
+	padding: 14px 18px;
+	width: 73%;
+}
+
+#message {
+	width: 100%;
+	height: 80px;
+	padding: 14px 18px;
+}
+
+.submit {
+	display: block;
+    color: #272c2f;
+    background-color: #ebce0d;
+    padding: 16px 40px;
+    font-weight: bold;
+    width: 58%;
+	margin: 18px 0;
+	text-align: center;
+	border: none;
+}
+
+.outro {
+	font-size: 12px;
+	color: #84898d;
+	margin-bottom: 3px;
+}
+
+.blue-card {
+	background-color: #184c6b;
+    border-radius: 10px;
+    width: 63%;
+    padding: 42px 35px 38px 40px;
+    color: #c0ddee;
+    height: 50%;
+}
+
+.blue-card-title {
+	font-size: 21px;
+	font-weight: bold;
+	padding-bottom: 21px;
+}
+
+.blue-card-desс {
+	float: left;
+    width: 47%;
+	margin-right: 40px;
+}
+
+.under-sign {
+	padding-top: 1.6%;
+}
+
+footer {
+	background-color: #22a2ec;
+	padding: 15px 36px;
+}
+
+.rights {
+	float: left;
+	display: block;
+	font-size: 13px;
+	color: #fff;
+	margin-right: 42px;
+	
+}
+
+.text-last {
+	float: right;
+	display: block;
+	font-size: 13px;
+	color: #fff;
+
+}
+
+.btn {
+	float: left;
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	border: 1px solid #FFF;
+	padding: 10px 25px;
+	margin-right: 66px;
+	border-radius: 5px;
+}
+
+.btn-circle {
+	border-radius: 18.5px
+}
+
+
+.text-white {
+	display: block;
+	float: left;
+	font-size: 12px;
+	color: #22a2ec;
+	background-color: #fff;
+	padding: 10px 25px;
+	border-radius: 3px;
+}
+
+.footer-text {
+	padding-top: 10px;
+}
